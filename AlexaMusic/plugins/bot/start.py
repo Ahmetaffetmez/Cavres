@@ -283,7 +283,14 @@ async def alive(client, message: Message):
         photo=f"https://telegra.ph/Affetmezler-01-14-2",
         caption=f"""━━━━━━━━━━━━━━━━━━━━━━━━\n\n✪ ʜᴇʟʟᴏ, affetmezler ...\n\n━━━━━━━━━━━━━━━━━━━━━━━━""",
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("🌼 affetmezler sohbet 💮", url=f"https://t.me/affetmezler_sohbet")]]
+            [
+                [
+                    InlineKeyboardButton(
+                        "🌼 affetmezler sohbet 💮",
+                        url=f"https://t.me/affetmezler_sohbet",
+                    )
+                ]
+            ]
         ),
     )
 
@@ -300,6 +307,13 @@ async def verify(client, message: Message):
         photo=f"https://telegra.ph/Affetmezler-01-14-2",
         caption=f"""━━━━━━━━━━━━━━━━━━━━━━━━\n\n✪ **ᴄᴏɴɢʀᴀᴛᴜʟᴀᴛɪᴏɴ** 🎉\n✪ ɴᴏᴡ ʏᴏᴜ ᴀʀᴇ affetmezler ᴠᴇʀɪғɪᴇᴅ ᴍᴇᴍʙᴇʀ ɢᴏ ʙᴀᴄᴋ ᴀɴᴅ ᴇɴᴊᴏʏ ᴏᴜʀ sᴇʀᴠɪᴄᴇ ᴀɴᴅ ᴘʟᴀʏ ᴍᴜsɪᴄ 🌼 ..\n\n━━━━━━━━━━━━━━━━━━━━━━━━""",
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("🌼 affetmezler sohbet 💮", url=f"https://t.me/affetmezler_sohbet")]]
+            [
+                [
+                    InlineKeyboardButton(
+                        "🌼 affetmezler sohbet 💮",
+                        url=f"https://t.me/affetmezler_sohbet",
+                    )
+                ]
+            ]
         ),
     )

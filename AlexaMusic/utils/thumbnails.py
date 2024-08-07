@@ -146,9 +146,7 @@ async def gen_thumb(videoid, user_id, theme):
                 fill="red",
                 font=font,
             )
-            text_w, text_h = draw.textsize(
-                f"affetmezler müzik ", font=arial
-            )
+            text_w, text_h = draw.textsize(f"affetmezler müzik ", font=arial)
             draw.text(
                 ((1280 - text_w) / 2, 80),
                 f"affetmezler müzik ",
@@ -305,9 +303,7 @@ async def gen_qthumb(videoid, user_id, theme):
                 fill="red",
                 font=font,
             )
-            text_w, text_h = draw.textsize(
-                f"affetmezler müzik ", font=arial
-            )
+            text_w, text_h = draw.textsize(f"affetmezler müzik ", font=arial)
             draw.text(
                 ((1280 - text_w) / 2, 80),
                 f"affetmezler müzik ",
